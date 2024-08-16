@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kalkulator Sederhana</title>
+    <link rel="stylesheet" href="styless.css">
 </head>
 <body>
-    
+    <div class="calculator">
+        <input type="text" id="display" disabled>
+        <div class="button">
+            <buton otnclick="cleardisplay()">C</buton>
+            <buton otnclick="appendToDisplay('1')">1</buton>
+            <buton otnclick="appendToDisplay('2')">2</buton>
+            <buton otnclick="appendToDisplay('3')">3</buton>
+            <buton otnclick="appendToDisplay('+')">+</buton>
+            <buton otnclick="appendToDisplay('4')">4</buton>
+            <buton otnclick="appendToDisplay('5')">5</buton>
+            <buton otnclick="appendToDisplay('6')">6</buton>
+            <buton otnclick="appendToDisplay('-')">-</buton>
+            <buton otnclick="appendToDisplay('7')">7</buton>
+            <buton otnclick="appendToDisplay('8')">8</buton>
+            <buton otnclick="appendToDisplay('9')">9</buton>
+            <buton otnclick="appendToDisplay('*')">*</buton>
+            <buton otnclick="appendToDisplay('0')">0</buton>
+            <buton otnclick="appendToDisplay('.')">.</buton>
+            <buton otnclick="calculateResult('=')">=</buton>
+            <buton otnclick="appendToDisplay('/')">/</buton>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
